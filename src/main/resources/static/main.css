@@ -1,0 +1,77 @@
+body,html {
+    background-color: #d5ecfe;
+}
+
+#atm-machine-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#atm-machine-signin,
+#atm-machine-withdraw,
+#atm-machine-deposit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.btn-sigin {
+    margin: 0;
+    width: 35%;
+    height: 50px;
+    margin: 10px;
+}
+
+.group-button-down {
+    height: 35%;
+}
+
+.btn-home {
+    margin: 10px;
+}
+
+#row-container { 
+    height: 100%;
+    align-items: center;
+}
+
+.info-balance {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.info-withdraw {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.withdraw-labels { 
+    align-items: flex-start;
+}
+
+.withdraw-input { 
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
